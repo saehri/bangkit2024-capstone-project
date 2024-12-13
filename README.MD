@@ -6,6 +6,31 @@ Divaskin is a mobile application designed to empower users by providing personal
 
 ---
 
+## Table of Contents
+
+1. [Project Overview](#project-overview)
+   - [Team Information](#team-information)
+   - [Team Members](#team-members)
+2. [Background](#background)
+   - [Key Features](#key-features)
+3. [Tech Stack](#tech-stack)
+   - [Android Stack](#android-stack)
+   - [Machine Learning Stack](#machine-learning-stack)
+   - [Cloud Computing Stack](#cloud-computing-stack)
+4. [Deployment](#deployment)
+   - [Deployed Links](#deployed-links)
+   - [Prototype](#prototype)
+   - [GitHub Repository](#github-repository)
+   - [Video Presentation](#10-minute-video-presentation)
+   - [Slides](#slides)
+5. [Go-to-Market Proposal](#go-to-market-proposal)
+   - [Target Market](#target-market)
+   - [Marketing Strategy](#marketing-strategy)
+6. [SWOT Analysis](#swot-analysis)
+7. [Acknowledgments](#acknowledgments)
+
+---
+
 ## Project Overview
 
 ### Team Information
