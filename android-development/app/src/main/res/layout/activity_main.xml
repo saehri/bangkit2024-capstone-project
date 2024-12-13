@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Welcome To Divaskin"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Button to choose image from storage (dashed outline) -->
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:backgroundTint="@color/green"
+        android:text="Scan Image from your Storage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <!-- ImageView to display the selected or taken photo (centered between the two buttons) -->
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="320dp"
+        android:layout_height="451dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/divaskin"
+        android:contentDescription="Photo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnSelectImage"
+        app:layout_constraintBottom_toTopOf="@id/btnTakePicture"
+        android:scaleType="centerCrop" />
+
+    <!-- Button to take a picture with the camera -->
+    <Button
+        android:id="@+id/btnTakePicture"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:text="Take a Picture"
+        android:backgroundTint="@color/green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivPhoto"
+        android:layout_marginTop="16dp" />
+
+    <!-- Processing Overlay Layout -->
+    <LinearLayout
+        android:id="@+id/overlayProcessingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#80000000"
+        android:visibility="gone">
+
+    <!-- Text showing "Analyzing your skin..." -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analyzing your skin..."
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Text showing "Done" -->
+    <TextView
+        android:id="@+id/tvDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:visibility="gone" />
+</LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
