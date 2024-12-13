@@ -27,7 +27,8 @@ Divaskin is a mobile application designed to empower users by providing personal
    - [Target Market](#target-market)
    - [Marketing Strategy](#marketing-strategy)
 6. [SWOT Analysis](#swot-analysis)
-7. [Acknowledgments](#acknowledgments)
+7. [Releases](#releases)
+8. [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -139,6 +140,12 @@ Divaskin addresses the challenges of selecting suitable skincare products by hel
 | **Opportunities**                                              | **Threats**                                 |
 | -------------------------------------------------------------- | ------------------------------------------- |
 | Partnerships with eco-friendly brands and government programs. | Competition from established skincare apps. |
+
+---
+
+## Releases
+
+You can view all the official releases of this project [here](https://github.com/saehri/bangkit2024-capstone-project/releases).
 
 ---
 
